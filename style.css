@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+div {
+    padding: 40px 30px;
+    max-width: 100%;
+}
+
+.content {
+    padding: 0;
+}
+
+.top_bar {
+    background-color: #263238;
+}
+
+.top_bar .title {
+    padding-top: 30px;
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.top_bar .quote {
+    margin: 15px 0 0 0;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.academic_history {
+    background-color: #1565C0;
+}
+
+.work_experience {
+    background-color: #42A5F5;
+}
+
+li {
+    padding: 10px 15px;
+    list-style-position: inside;
+}
+
+.duration {
+    background-color: #607D8B;
+    padding: 2px 4px;
+    line-height: 1.5rem;
+}
+
+li .company {
+    font-weight: bold;
+}
+
+li .duration, li .about {
+    margin-left: 18px;
+}
+
+.location {
+    margin-left: 0;
+}
+
+.footer {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer div {
+    width: 100%;
+    padding: 12px 0 0 0;
+}
+
+#darkest {
+    background-color: #263238;
+}
+#dark {
+    background-color: #1565C0;
+}
+#light {
+    background-color: #42A5F5;
+}
